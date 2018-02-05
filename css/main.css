@@ -6,11 +6,13 @@ img {
     width: 100%;
 }
 
+.title-right {
+  background-color: #F48C68;
+  color: #ffffff;
+  text-align: right;
+}
 .main {
-    background-color: #F48C68;
-    color: #ffffff;
     padding: 50px 30px;
-    text-align: right;
 }
 
 .panda-image {
@@ -37,8 +39,29 @@ img {
     background-color: #F48C68;
     color: white;
     padding: 20px;
+    word-wrap: break-word; /* Añadí esta propiedad, ya que noté que en modelos como el Galaxy S5, algunas palabras se desbordaban del contenedor en el que estaban */
 }
 
 .panda-2 {
     background-image: url('../assets/img/dos.jpg');
+}
+
+.h2 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.panda-gallery {
+  border: 10px solid #fff;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.panda-3 {
+  background-image: url('../assets/img/tres.jpg');
+}
+
+footer {
+  padding: 20px;
 }
